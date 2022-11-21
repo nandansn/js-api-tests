@@ -1,0 +1,23 @@
+{
+  "name": "js-api-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha spec './test/test-two.js' './test/test-one.js' --reporter mochawesome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nandansn/js-api-tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nandansn/js-api-tests/issues"
+  },
+  "homepage": "https://github.com/nandansn/js-api-tests#readme",
+  "devDependencies": {
+    "mocha": "^10.1.0",
+    "mochawesome": "^7.1.3"
+  }
+}
